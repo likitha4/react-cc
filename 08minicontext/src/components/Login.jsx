@@ -12,7 +12,7 @@ function Login(){
 
     //object
     const {setUser}= useContext(UserContext)
-    const handleSubmit=()=>{
+    const handleSubmit=(e)=>{
         e.preventDefault()
         setUser({username, password})
     }
